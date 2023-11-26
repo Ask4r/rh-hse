@@ -1,0 +1,78 @@
+:root {
+    /* background */
+    --colors-background-bg-primary: #0C111D;
+    --colors-background-bg-primary-hover: #1F242F;
+    --colors-background-bg-brand-secondary: #7F56D9;
+    --colors-background-bg-quarterary: #333741;
+
+    /* foreground */
+    --colors-foreground-fg-brand-primary-600: #9E77ED;
+    --colors-foreground-fg-secondary-700: #CECFD2;
+    --colors-foreground-fg-secondary-hover: #ECECED;
+
+    /* border */
+    --colors-border-border-secondary: #1F242F;
+
+    /* text */
+    --colors-text-text-white: #FFFFFF;
+    --colors-text-text-primary-900: #F5F5F6;
+    --colors-text-text-brand-secondary-700: #CECFD2;
+    --colors-text-text-tertiary-600: #94969C;
+    --colors-text-text-quarterary-500: #94969C;
+
+
+    /* components buttons */
+    --component-colors-components-buttons-primary-button-primary-fg: #FFFFFF;
+    --component-colors-components-buttons-primary-button-primary-bg: #7F56D9;
+    --component-colors-components-buttons-primary-button-primary-border: #7F56D9;
+
+    --component-colors-components-buttons-primary-button-primary-fg-hover: #FFFFFF;
+    --component-colors-components-buttons-primary-button-primary-bg-hover: #6941C6;
+    --component-colors-components-buttons-primary-button-primary-border-hover: #6941C6;
+
+    --component-colors-components-buttons-secondary-button-secondary-fg: #CECFD2;
+    --component-colors-components-buttons-secondary-button-secondary-bg: #161B26;
+    --component-colors-components-buttons-secondary-button-secondary-border: #333741;
+
+    --component-colors-components-buttons-secondary-button-secondary-fg-hover: #ECECED;
+    --component-colors-components-buttons-secondary-button-secondary-bg-hover: #1F242F;
+    --component-colors-components-buttons-secondary-button-secondary-border-hover: #333741;
+
+    --component-colors-components-buttons-tertiary-button-tertiary-fg: #94969C;
+
+    --component-colors-components-buttons-tertiary-button-tertiary-fg-hover: #ECECED;
+    --component-colors-components-buttons-tertiary-button-tertiary-bg-hover: #1F242F;
+
+    /* component utility */
+    --component-colors-utility-brand-utility-brand-50: #2C1C5F;
+    --component-colors-utility-brand-utility-brand-200: #53389E;
+    --component-colors-utility-brand-utility-brand-700: #D6BBFB;
+
+    --component-colors-utility-pink-utility-pink-50: #4E0D30;
+    --component-colors-utility-pink-utility-pink-200: #9E165F;
+    --component-colors-utility-pink-utility-pink-700: #FAA7E0;
+
+    --component-colors-utility-indigo-utility-indigo-50: #1F235B;
+    --component-colors-utility-indigo-utility-indigo-200: #2D31A6;
+    --component-colors-utility-indigo-utility-indigo-700: #A4BCFD;
+
+    --component-colors-utility-success-utility-success-50: #053321;
+    --component-colors-utility-success-utility-success-200: #085D3A;
+    --component-colors-utility-success-utility-success-700: #75E0A7;
+
+    --component-colors-utility-blue-utility-blue-50: #102A56;
+    --component-colors-utility-blue-utility-blue-200: #1849A9;
+    --component-colors-utility-blue-utility-blue-700: #84CAFF;
+
+    --component-colors-utility-orange-utility-orange-50: #511C10;
+    --component-colors-utility-orange-utility-orange-200: #932F19;
+    --component-colors-utility-orange-utility-orange-700: #F7B27A;
+
+    --component-colors-utility-gray-blue-utility-gray-blue-50: #101323;
+    --component-colors-utility-gray-blue-utility-gray-blue-200: #293056;
+    --component-colors-utility-gray-blue-utility-gray-blue-700: #B3B8DB;
+
+    --component-colors-utility-gray-utility-gray-50: #161B26;
+    --component-colors-utility-gray-utility-gray-200: #333741;
+    --component-colors-utility-gray-utility-gray-700: #CECFD2;
+}

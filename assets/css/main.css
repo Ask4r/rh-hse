@@ -1,0 +1,39 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: var(--colors-text-text-tertiary-600, #94969C);
+    background: var(--colors-background-bg-primary, #0C111D);
+    font-family: Inter, sans-serif;
+    font-variant: normal;
+    scroll-behavior: smooth;
+}
+
+img {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+*::selection {
+    /*background: var(--colors-background-bg-brand-secondary, #7F56D9);*/
+    background: #7F56D93D;
+}
+
+*::-webkit-scrollbar {
+    width: 1.6rem;
+    background: var(--colors-background-bg-primary, #0C111D);
+}
+
+*::-webkit-scrollbar-thumb {
+    background: var(--colors-background-bg-quaternary, #333741);
+    border: solid 0.4rem var(--colors-background-bg-primary, #0C111D);
+    border-radius: 50em;
+}
+
+*::-webkit-scrollbar-corner {
+    background: var(--colors-background-bg-primary, #0C111D);
+}

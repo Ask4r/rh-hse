@@ -1,0 +1,41 @@
+:root {
+    /* radius */
+    --radius-none: 0;
+    --radius-xxs: .2rem;
+    --radius-xs: .4rem;
+    --radius-sm: .6rem;
+    --radius-md: .8rem;
+    --radius-lg: 1rem;
+    --radius-xl: 1.2rem;
+    --radius-2xl: 1.6rem;
+    --radius-3xl: 2rem;
+    --radius-4xl: 2.4rem;
+    --radius-full: 50em;
+
+    /* spacing */
+    --spacing-none: 0;
+    --spacing-xxs: .2rem;
+    --spacing-xs: .4rem;
+    --spacing-sm: .6rem;
+    --spacing-md: .8rem;
+    --spacing-lg: 1.2rem;
+    --spacing-xl: 1.6rem;
+    --spacing-2xl: 2rem;
+    --spacing-3xl: 2.4rem;
+    --spacing-4xl: 3.2rem;
+    --spacing-5xl: 4rem;
+    --spacing-6xl: 4.8rem;
+    --spacing-7xl: 6.4rem;
+    --spacing-8xl: 8rem;
+    --spacing-9xl: 9.6rem;
+    --spacing-10xl: 12.8rem;
+    --spacing-11xl: 16rem;
+
+    /* containers */
+    --container-padding-mobile: 1.6rem;
+    --container-padding-desktop: 3.2rem;
+    --container-max-width-desktop: 128rem;
+
+    /* paragraph max-widths*/
+    --paragraph-max-width: 72rem;
+}
