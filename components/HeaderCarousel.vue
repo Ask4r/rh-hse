@@ -26,22 +26,20 @@ function carouselToRight() {
       <slot/>
     </div>
 
-    <client-only>
-      <container class="carousel__navigation navigation">
-        <button class="navigation__button"
-                @click="carouselToLeft">
-          <ArrowLeftIcon color="var(--colors-foreground-fg-quarterary-500, #94969C)"
-                         :size="isMobile ? 20 : 24"
-                         class="carousel__icon"/>
-        </button>
-        <button class="navigation__button navigation__button_right"
-                @click="carouselToRight">
-          <ArrowLeftIcon color="var(--colors-foreground-fg-quarterary-500, #94969C)"
-                         :size="isMobile ? 20 : 24"
-                         class="carousel__icon"/>
-        </button>
-      </container>
-    </client-only>
+    <container class="carousel__navigation navigation">
+      <button class="navigation__button"
+              @click="carouselToLeft">
+        <ArrowLeftIcon color="var(--colors-foreground-fg-quarterary-500, #94969C)"
+                       :size="isMobile ? 20 : 24"
+                       class="carousel__icon"/>
+      </button>
+      <button class="navigation__button navigation__button_right"
+              @click="carouselToRight">
+        <ArrowLeftIcon color="var(--colors-foreground-fg-quarterary-500, #94969C)"
+                       :size="isMobile ? 20 : 24"
+                       class="carousel__icon"/>
+      </button>
+    </container>
 
   </div>
 </template>

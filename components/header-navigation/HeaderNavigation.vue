@@ -7,9 +7,7 @@ import { HeaderNavDesktop, HeaderNavMobile } from '#components';
 <template>
   <header class="header-navigation">
 
-    <client-only>
       <Component :is="isMobile ? HeaderNavMobile : HeaderNavDesktop"/>
-    </client-only>
 
   </header>
 </template>

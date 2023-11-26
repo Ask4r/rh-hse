@@ -10,9 +10,7 @@ import { TimelinesMobile, InfographicsInteractive } from '#components';
     </container>
 
     <container class="timeline__container">
-      <client-only>
         <Component :is="isMobile ? TimelinesMobile : InfographicsInteractive"/>
-      </client-only>
     </container>
 
   </section>
