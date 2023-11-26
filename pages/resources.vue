@@ -8,10 +8,11 @@
     <header class="header">
       <container>
         <div class="heading">
-          <p class="heading__subheading">ошибка 404</p>
-          <h1 class="heading__heading-text">Мы не нашли страницу</h1>
+          <p class="heading__subheading">Ресурсы проекта</p>
+          <h1 class="heading__heading-text">Ссылки на источники</h1>
           <p class="heading__supporting-text">
-            Мы искали везде, но не смогли найти то, что искали. Давайте найдем лучшую историю для вас.
+            Ссылки на литературу, фильмы, видео и медиа источники информации, использованные, во время исследовательской
+            работы над проектом.
           </p>
         </div>
       </container>
