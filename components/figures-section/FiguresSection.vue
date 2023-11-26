@@ -20,7 +20,7 @@ const {triggerShowFigures} = useOnClickShowFigures();
 
     <container>
       <div class="figures-list">
-        <nuxt-link to="/nemzov">
+        <nuxt-link to="/">
           <FigureCard image="/images/nemzov-bw.png"
                       subheading="Политик"
                       heading="Борис Немцов"
@@ -29,7 +29,7 @@ const {triggerShowFigures} = useOnClickShowFigures();
                              title: 'Влад Овчаров',
                              supportingText: 'Pussy Destroyer' }"/>
         </nuxt-link>
-        <nuxt-link to="/elzin">
+        <nuxt-link to="/">
           <FigureCard image="/images/elzin-peace.png"
                       subheading="Президент РФ"
                       heading="Борис Ельцин"
@@ -38,7 +38,7 @@ const {triggerShowFigures} = useOnClickShowFigures();
                                  title: 'Влад Овчаров',
                                  supportingText: 'Pussy Destroyer' }"/>
         </nuxt-link>
-        <nuxt-link to="/berezovsky">
+        <nuxt-link to="/">
           <FigureCard image="/images/berezovsky-office.png"
                       subheading="Предприниматель"
                       heading="Борис Березовский"

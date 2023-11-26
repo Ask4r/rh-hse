@@ -28,7 +28,7 @@ const emits = defineEmits<{
                             supporting-text="Маэстро"/>
         </li>
       </nuxt-link>
-      <nuxt-link to="/berezovsky" @click="emits('navigated')">
+      <nuxt-link to="/" @click="emits('navigated')">
         <li class="menu__item">
           <AvatarLabelGroup image="/images/berezovsky-office.png"
                             title="Борис Березовский"
