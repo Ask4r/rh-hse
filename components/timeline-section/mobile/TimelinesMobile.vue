@@ -48,7 +48,6 @@
 
 .container {
   flex-direction: column;
-  gap: var(--spacing-5xl, 4rem);
 }
 
 .timeline {
@@ -56,6 +55,10 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+
+  &:not(:last-child) {
+    margin-bottom: var(--spacing-5xl, 4rem);
+  }
 
   &__point {
     margin-bottom: var(--spacing-xl, 1.6rem);

@@ -12,18 +12,18 @@
     <div class="main-content">
       <container class="main-content__container">
 
-        <ContentExample/>
+        <LandingContent/>
 
-        <AuthorAndCategories/>
+        <LandingAuthor/>
 
       </container>
     </div>
 
     <SectionDivider/>
 
-    <FiguresSection />
+    <FiguresSection/>
 
-    <SectionDivider />
+    <SectionDivider/>
 
   </article>
 </template>
