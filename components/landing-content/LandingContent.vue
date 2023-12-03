@@ -8,110 +8,94 @@
     <h2 class="heading-sm">Introduction</h2>
 
     <p class="plain-text">
-      Suspendisse eget dictum mi, sed ultricies ex. Duis malesuada purus ante, id ultrices dui
-      ullamcorper sed. Aenean a eros ut nibh blandit iaculis. Integer venenatis sed lectus id
-      elementum. Integer in dapibus quam. Aenean pulvinar lorem dui, vitae consequat est vestibulum
-      id. Integer in ex ac lectus venenatis rhoncus non et elit.
+      Период 1990-х – эпоха самых крупных трансформаций российской истории, по совместительству являющаяся одной из самых
+      обсуждаемых. Среди основных явлений периода называются Августовский путч, распад СССР, реформы правительства Ельцина
+      – Гайдара, конституционный кризис, завершившийся силовым разгоном Съезда народных депутатов и Верховного Совета,
+      приватизация государственной собственности в частные руки, либерализация цен, обесценивание сбережений граждан,
+      денежная реформа 1993 года, становление терроризма и организованной преступности, две чеченские войны, дефолт 1998
+      года, вестернизация и т. д.
     </p>
     <p class="plain-text">
-      Quisque consequat quis nulla
-      sed rhoncus. Nulla viverra et tellus in congue. Maecenas vitae lorem id lorem tincidunt
-      dignissim eget sed tortor. Morbi ut interdum eros. Orci varius natoque penatibus et magnis dis
-      parturient montes, nascetur ridiculus mus. Maecenas nec est sodales, pretium mi vel, placerat
-      neque.
+      Конечно, нельзя ограничить рассмотрение этого периода анализом только реформ, военных конфликтов и экономической
+      политики. Цель нашего исследования – рассмотреть события того времени под призмой политической и социальной
+      деятельности отдельных людей.
     </p>
 
     <div class="image-and-text">
-      <img src="/images/ponasenkov-pink.png"
-           alt="Понасенков задумал открыть «музей завистливых идиотов»."
-           class="image-and-text__image">
-      <p class="image-and-text__text">Понасенков задумал открыть «музей завистливых идиотов».</p>
+      <img src="/images/elzin-winner.png" alt="Борис Ельцин после Августовского путча и поражения ГКЧП."
+        class="image-and-text__image">
+      <p class="image-and-text__text">Борис Ельцин после Августовского путча и поражения ГКЧП.</p>
     </div>
 
     <div class="quote">
       <q class="quote__text">
-        Никакой драки не было, мой приятель его просто оттолкнул, а тот, поскольку был пьян,
-        попятился и, вероятно, упал.
+        Конечно, за эти 5 лет досталось вам. Досталось и мне. Но шагу ни одного назад мы с вами не сделали, и не должны ни
+        одного шага сделать ни при каких обстоятельствах!
       </q>
       <div class="avatar-label">
-        <img src="/images/ponasenkov-avatar.png"
-             alt="Евгений Понасенков"
-             class="avatar-label__image">
-        <p class="avatar-label__title">Евгений Понасенков</p>
-        <p class="avatar-label__subtext">Маэстро</p>
+        <img src="/images/elzin-avatar.png" alt="Борис Ельцин" class="avatar-label__image">
+        <p class="avatar-label__title">Борис Ельцин</p>
+        <p class="avatar-label__subtext">Президент РФ с 1991 по 1999 годы</p>
       </div>
     </div>
 
     <p class="plain-text">
-      Aliquam feugiat iaculis lorem, id sagittis lectus pretium sit amet. Etiam finibus, ex et
-      imperdiet hendrerit, ipsum risus vestibulum ante, non porttitor tortor velit vitae nibh. In
-      porta lacinia erat at varius.
+      Действия власти в то время сложно назвать задуманными или запланированными. Многие действия скорее были реакцией на
+      возникающие то тут, то там проблемы. И подобные реактивные действия нельзя рассматривать, не учитывая личность их
+      осуществляющих.
     </p>
     <p class="plain-text">
-      In pellentesque, lacus a luctus mollis, tortor neque
-      interdum enim, nec gravida ipsum sem sit
-      amet ipsum. Nam eu nibh ex. Sed euismod, mauris mattis malesuada tincidunt, nunc justo posuere
-      quam, sit amet pharetra enim diam a ante. Nam condimentum odio ex, cursus fermentum justo
-      convallis at.
-    </p>
-    <p class="plain-text">
-      Donec sit amet purus vitae ligula faucibus commodo laoreet sed sapien.
-      Cras in mattis justo. Nullam mattis mi a ligula blandit vestibulum. Class aptent taciti
-      sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+      90-е не только переплетение различных общественных, экономических и политических процессов. Это период разрушения
+      старых концепций и мифов и постройки новых на их обломках. Подобные изменения оставили ощутимый след на обществе,
+      который заставляет вспоминать и обсуждать это время до сих пор.
     </p>
 
-    <h2 class="heading-xs">О важном</h2>
+    <h2 class="heading-xs">Об исследовании</h2>
 
     <p class="plain-text">
-      Etiam porta justo tempus rutrum lacinia. Morbi pulvinar interdum massa, eget pharetra augue eleifend at. Proin non
-      fermentum enim. Nunc at ultrices dui. Etiam aliquam vestibulum arcu, in ullamcorper ex lacinia ac. Maecenas sed
-      justo ipsum. Nullam sollicitudin tortor id mattis commodo. Nulla ac metus dapibus, molestie urna sit amet,
-      eleifend nisl. Donec scelerisque a enim sit amet ultrices.
+      В этом исследовании нами рассмотрено
+    <p style="color: red;">ДЕВЯТЬ НЕ ЗАБЫТЬ ПОТОМ ПОМЕНЯТЬ АААААААААААААААААААА </p> политических и общественных деятелей,
+    чьи личные качества оказали решающее влияние на развитие событий.
     </p>
 
     <ol class="plain-text text-list">
+      Ход исследования:
       <li>
-        Curabitur eleifend semper egestas. Nullam varius, odio nec lacinia euismod, augue leo sollicitudin
-        sem, nec dignissim lectus risus vitae urna.
+        Описание исторических личностей 90-х на основе литературы.
       </li>
       <li>
-        Aenean eleifend pellentesque libero, eget pharetra nibh.
+        Проведение социологического опроса.
       </li>
       <li>
-        Maecenas lacinia, dui et luctus ornare, ex ex iaculis felis, sit amet ornare odio risus eget purus.
+        Анализ и сопоставление результатов. Оценка результатов опроса с точки зрения коллективной памяти.
       </li>
     </ol>
 
     <div class="image-and-text">
-      <img src="/images/ponasenkov-wondering.png"
-           alt="Историк Понасенков рассказал подробности смертельной драки."
-           class="image-and-text__image">
-      <p class="image-and-text__text">Историк Понасенков рассказал подробности смертельной драки.</p>
+      <img src="/images/nemzov-walking.png"
+        alt="Борис Ефимович Немцов – российский политический и государственный деятель." class="image-and-text__image">
+      <p class="image-and-text__text">Борис Ефимович Немцов – российский политический и государственный деятель.</p>
     </div>
 
-    <p class="plain-text">
+    <!-- <p class="plain-text">
       Etiam porta justo tempus rutrum lacinia. Morbi pulvinar interdum massa, eget pharetra augue
       eleifend at. Proin non fermentum enim. Nunc at ultrices dui. Etiam aliquam vestibulum arcu, in
       ullamcorper ex lacinia ac. Maecenas sed justo ipsum. Nullam sollicitudin tortor id mattis
       commodo. Nulla ac metus dapibus, molestie urna sit amet, eleifend nisl. Donec scelerisque a
       enim sit amet ultrices.
-    </p>
+    </p> -->
 
 
     <div class="content-box">
 
       <h2 class="heading-sm">Заключение</h2>
       <p class="plain-text">
-        Curabitur convallis vitae dolor eu aliquam. Phasellus convallis congue mi vitae porttitor.
-        Maecenas viverra dapibus justo, eu vulputate orci faucibus tempor. Morbi sit amet finibus
-        velit, et viverra sem. Etiam id gravida metus. Cras sagittis orci et rutrum iaculis.
-        Maecenas facilisis tortor et suscipit iaculis.
+        В этой работе мы объединим два подхода к исследованию этой противоречивой эпохи: рассмотрим основные события 90-х
+        в рамках биографии известных причастных людей и сопоставим это с мнением опрошенных людей.
       </p>
       <p class="plain-text">
-        Vivamus at varius urna. Nam ultricies lobortis eros vitae cursus. Cras ullamcorper enim
-        eros, et ultricies nunc molestie id. Nam laoreet ullamcorper neque, in aliquam mi sollicitudin
-        vel. Mauris sagittis, ante eu feugiat commodo, lorem nisl fringilla turpis, facilisis ultricies
-        nisl metus a lorem. Curabitur faucibus ante at risus ultricies dignissim.
+        Результаты исследования наглядно представлены в виде данного веб-сайта с удобной навигацией по разделам,
+        соответствующим частям работы.
       </p>
 
     </div>
@@ -120,7 +104,6 @@
 </template>
 
 <style scoped lang="scss">
-
 .content {
   max-width: var(--paragraph-max-width, 72rem);
 }
@@ -187,7 +170,7 @@
   width: max-content;
   display: grid;
   grid-template: "image title" 2.4rem
-                 "image subtext" 2.4rem / auto auto;
+    "image subtext" 2.4rem / auto auto;
   gap: 0 1.2rem;
 
   &__image {
@@ -258,6 +241,4 @@
     padding: 3.2rem;
   }
 
-}
-
-</style>
+}</style>
