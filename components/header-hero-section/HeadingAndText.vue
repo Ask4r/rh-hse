@@ -7,8 +7,7 @@
 
     <h1 class="text__title">Исторические личности России 1990х годов</h1>
 
-    <p class="text__supporting">Maecenas euismod purus at molestie consectetur. Mauris congue congue lacus eget
-                                tincidunt. Sed risus odio.</p>
+    <p class="text__supporting">Экскурс в переломный период становления России и самых ярких деятелей того времени.</p>
 
     <button-component :size="isMobile ? 'xl' : '2xl'" style-mode="primary_color" class="text__button">
       <template #leading="{ isHovered }">
