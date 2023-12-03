@@ -13,7 +13,14 @@ const {onShowFigures} = useOnClickShowFigures();
 
 
 onShowFigures(() => {
+  if (isMenuActive.value === true)
+    return;
+
   isMenuActive.value = true;
+
+  setTimeout(() => {
+    isFiguresActive.value = true;
+  }, 0);
 });
 
 
@@ -64,7 +71,7 @@ function foldMenu() {
                        @click="foldMenu"/>
 
         <div class="dropdown__footer">
-          <button-component size="lg" style-mode="primary_color">
+          <button-component size="lg" style-mode="primary_color" @click="useShareURL">
             Поделиться
           </button-component>
         </div>

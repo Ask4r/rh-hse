@@ -76,7 +76,7 @@ function carouselToRight() {
       object-fit: contain;
       object-position: top;
 
-      scroll-snap-align: start;
+      scroll-snap-align: center;
     }
   }
 }
@@ -119,6 +119,7 @@ function carouselToRight() {
 
       & > :slotted(*) {
         max-width: 72rem;
+        scroll-snap-align: start;
       }
     }
   }

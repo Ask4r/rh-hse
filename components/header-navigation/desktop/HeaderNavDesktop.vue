@@ -60,7 +60,7 @@ function foldMenu() {
         </nav>
       </nav>
 
-      <button-component size="lg" style-mode="primary_color">
+      <button-component size="lg" style-mode="primary_color" @click="useShareURL">
         Поделиться
       </button-component>
 

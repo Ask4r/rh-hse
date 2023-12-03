@@ -27,7 +27,8 @@
             Aenean a eros ut nibh blandit iaculis. Integer venenatis sed lectus id elementum. Integer in dapibus quam.
             Aenean pulvinar lorem dui, vitae consequat est vestibulum id. Integer in ex ac lectus venenatis rhoncus non
             et elit.
-            <br><br>
+          </p>
+          <p class="plain-text">
             Quisque consequat quis nulla sed rhoncus. Nulla viverra et tellus in congue. Maecenas vitae lorem id lorem
             tincidunt dignissim eget sed tortor. Morbi ut interdum eros. Orci varius natoque penatibus et magnis dis
             parturient montes, nascetur ridiculus mus. Maecenas nec est sodales, pretium mi vel, placerat neque.
@@ -87,7 +88,7 @@
 
           <h3 class="text-heading">Видео</h3>
 
-          <ol class="plain-text text-list">
+          <ol class="plain-text text-list text-list_padding-double">
             <li>ГОСТ 19.103-77 Обозначения программ и программных документов. //Единая система программной
               документации. –М.: ИПК Издательство стандартов, 2001.
             </li>
@@ -181,17 +182,22 @@
 }
 
 .plain-text {
+  margin: 1lh 0;
   white-space: pre-line;
   color: var(--colors-text-text-tertiary-600, #94969C);
   @include text-md(Regular);
 }
 
 .text-list {
-  padding-left: 2em;
+  padding-left: 1.4em;
+
+  &_padding-double {
+    padding-left: 2em;
+  }
 }
 
 .text-heading {
-  padding: 3.2rem 0 1.6rem 0;
+  margin: 3.2rem 0 1.6rem 0;
   color: var(--colors-text-text-primary-900, #F5F5F6);
   @include display-sm(Semibold);
 }
@@ -213,7 +219,6 @@
     }
   }
 
-
   .content {
     padding: var(--spacing-7xl, 6.4rem) 0;
   }
@@ -223,7 +228,7 @@
   }
 
   .text-heading {
-    padding: var(--spacing-5xl, 4rem) 0 var(--spacing-2xl, 2rem) 0;
+    margin: var(--spacing-5xl, 4rem) 0 var(--spacing-2xl, 2rem) 0;
     @include display-sm(Semibold);
   }
 }

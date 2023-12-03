@@ -38,9 +38,7 @@
     left: 50%;
     translate: -50% 0;
 
-    background-image: url('~/assets/images/dot-grid-desktop.png');
-    background-size: 1920px 1440px;
-    background-position: center 1010px;
+    background: url('~/assets/images/dot-grid-desktop.png') center -430px / 1920px 1440px no-repeat;
   }
 
   &__container {
