@@ -7,7 +7,7 @@
 
     <h2 class="heading-sm">Введение</h2>
 
-    <p class="plain-text">
+    <p class="plain-text block-first-child">
       Период 1990-х – эпоха самых крупных трансформаций российской истории, по совместительству являющаяся одной из
       самых
       обсуждаемых. Среди основных явлений периода называются Августовский путч, распад СССР, реформы правительства
@@ -57,7 +57,7 @@
     <h2 class="heading-xs">Об исследовании</h2>
 
     <!-- TODO: Update landing text -->
-    <p class="plain-text">
+    <p class="plain-text block-first-child">
       В этом исследовании нами рассмотрено
       <span style="color: red;">ДЕВЯТЬ НЕ ЗАБЫТЬ ПОТОМ ПОМЕНЯТЬ АААААААААААААААААААА </span> политических и общественных
       деятелей,
@@ -87,24 +87,15 @@
       <p class="image-and-text__text">Борис Ефимович Немцов – российский политический и государственный деятель.</p>
     </div>
 
-    <!-- <p class="plain-text">
-      Etiam porta justo tempus rutrum lacinia. Morbi pulvinar interdum massa, eget pharetra augue
-      eleifend at. Proin non fermentum enim. Nunc at ultrices dui. Etiam aliquam vestibulum arcu, in
-      ullamcorper ex lacinia ac. Maecenas sed justo ipsum. Nullam sollicitudin tortor id mattis
-      commodo. Nulla ac metus dapibus, molestie urna sit amet, eleifend nisl. Donec scelerisque a
-      enim sit amet ultrices.
-    </p> -->
-
-
     <div class="content-box">
 
       <h2 class="heading-sm">Заключение</h2>
-      <p class="plain-text">
+      <p class="plain-text block-first-child">
         В этой работе мы объединим два подхода к исследованию этой противоречивой эпохи: рассмотрим основные события
         90-х
         в рамках биографии известных причастных людей и сопоставим это с мнением опрошенных людей.
       </p>
-      <p class="plain-text">
+      <p class="plain-text block-last-child">
         Результаты исследования наглядно представлены в виде данного веб-сайта с удобной навигацией по разделам,
         соответствующим частям работы.
       </p>
@@ -115,141 +106,7 @@
 </template>
 
 <style scoped lang="scss">
-.content {
-  max-width: var(--paragraph-max-width, 72rem);
-}
 
-.heading-sm {
-  margin-bottom: 1.6rem;
-  color: var(--colors-text-text-primary-900, #F5F5F6);
-  @include display-xs(Semibold);
-}
+@import "@/assets/scss/page-content";
 
-.heading-xs {
-  margin: 3.2rem 0 1.2rem 0;
-  color: var(--colors-text-text-primary-900, #F5F5F6);
-  @include text-xl(Semibold);
-}
-
-.plain-text {
-  margin: 1lh 0;
-  white-space: pre-line;
-  color: var(--colors-text-text-tertiary-600, #94969C);
-  @include text-md(Regular);
-}
-
-.text-list {
-  padding-left: 1.4em;
-
-  &_padding-double {
-    padding-left: 2em;
-  }
-}
-
-.image-and-text {
-  margin: 4rem 0;
-
-  &__image {
-    width: 100%;
-    border-radius: var(--radius-xl, 1.2rem);
-  }
-
-  &__text {
-    margin-top: 1.2rem;
-    color: var(--colors-text-text-tertiary-600, #94969C);
-    @include text-sm(Regular);
-  }
-}
-
-.quote {
-  margin: 4rem 0;
-  padding: 0.8rem 0 0.8rem 1.6rem;
-
-  display: flex;
-  flex-direction: column;
-  gap: 3.2rem;
-
-  border-left: 2px solid var(--colors-foreground-fg-brand-primary-600, #9E77ED);
-
-  &__text {
-    color: var(--colors-text-text-primary-900, #F5F5F6);
-    @include text-xl(Medium, italic);
-  }
-}
-
-.avatar-label {
-  width: max-content;
-  display: grid;
-  grid-template: "image title" 2.4rem
-    "image subtext" 2.4rem / auto auto;
-  gap: 0 1.2rem;
-
-  &__image {
-    grid-area: image;
-    width: 4.8rem;
-    height: 4.8rem;
-    border-radius: var(--radius-full, 50em);
-  }
-
-  &__title {
-    grid-area: title;
-    white-space: nowrap;
-    color: var(--colors-text-text-primary-900, #F5F5F6);
-    @include text-md(Semibold);
-  }
-
-  &__subtext {
-    grid-area: subtext;
-    white-space: nowrap;
-    color: var(--colors-text-text-tertiary-600, #94969C);
-    @include text-md(Regular);
-  }
-}
-
-.content-box {
-  margin: 3.2rem 0;
-  padding: 2.4rem;
-  border-radius: var(--radius-2xl, 1.6rem);
-  background: var(--colors-background-bg-secondary, #161B26);
-}
-
-
-@media only screen and (min-width: 768px) {
-
-  .heading-sm {
-    margin-bottom: 2rem;
-    @include display-sm(Semibold);
-  }
-
-  .heading-xs {
-    margin: 3.2rem 0 1.6rem 0;
-    @include display-sm(Semibold);
-  }
-
-  .plain-text {
-    @include text-lg(Regular);
-  }
-
-  .image-and-text {
-    margin: 4.8rem 0;
-
-    &__text {
-      margin-top: 1.6rem;
-    }
-  }
-
-  .quote {
-    margin: 4.8rem 0;
-    padding: 0.8rem 0 0.8rem 2rem;
-
-    &__text {
-      @include display-xs(Medium, italic);
-    }
-  }
-
-  .content-box {
-    margin: 4.8rem 0;
-    padding: 3.2rem;
-  }
-
-}</style>
+</style>

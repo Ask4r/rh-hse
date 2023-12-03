@@ -88,7 +88,7 @@
 
           <h3 class="text-heading">Видео</h3>
 
-          <ol class="plain-text text-list text-list_padding-double">
+          <ol class="plain-text text-list text-list_padding-double block-last-child">
             <li>ГОСТ 19.103-77 Обозначения программ и программных документов. //Единая система программной
               документации. –М.: ИПК Издательство стандартов, 2001.
             </li>
@@ -144,6 +144,8 @@
 
 <style scoped lang="scss">
 
+@import "@/assets/scss/page-content";
+
 .header {
   padding: var(--spacing-9xl, 9.6rem) 0;
 }
@@ -181,21 +183,6 @@
   padding: var(--spacing-9xl, 9.6rem) 0;
 }
 
-.plain-text {
-  margin: 1lh 0;
-  white-space: pre-line;
-  color: var(--colors-text-text-tertiary-600, #94969C);
-  @include text-md(Regular);
-}
-
-.text-list {
-  padding-left: 1.4em;
-
-  &_padding-double {
-    padding-left: 2em;
-  }
-}
-
 .text-heading {
   margin: 3.2rem 0 1.6rem 0;
   color: var(--colors-text-text-primary-900, #F5F5F6);
@@ -203,7 +190,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-
   .header {
     padding: var(--spacing-7xl, 6.4rem) 0;
   }
@@ -221,10 +207,6 @@
 
   .content {
     padding: var(--spacing-7xl, 6.4rem) 0;
-  }
-
-  .plain-text {
-    @include text-lg(Regular);
   }
 
   .text-heading {
