@@ -40,6 +40,8 @@
 }
 
 .heading {
+  max-width: 76.8rem;
+
   &__subheading {
     margin-bottom: var(--spacing-lg, 1.2rem);
     color: var(--colors-text-text-brand-secondary-700, #CECFD2);
