@@ -5,7 +5,7 @@
 <template>
   <article class="content">
 
-    <h2 class="heading-sm">Introduction</h2>
+    <h2 class="heading-sm">Введение</h2>
 
     <p class="plain-text">
       Период 1990-х – эпоха самых крупных трансформаций российской истории, по совместительству являющаяся одной из самых
