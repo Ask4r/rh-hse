@@ -35,7 +35,7 @@
       <div class="avatar-label">
         <img src="/images/elzin-avatar.png" alt="Борис Ельцин" class="avatar-label__image">
         <p class="avatar-label__title">Борис Ельцин</p>
-        <p class="avatar-label__subtext">Президент РФ с 1991 по 1999 годы</p>
+        <p class="avatar-label__subtext">Президент РФ (1991-99)</p>
       </div>
     </div>
 
