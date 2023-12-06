@@ -19,7 +19,7 @@ a {
 }
 
 *::selection {
-    /*background: var(--colors-background-bg-brand-secondary, #7F56D9);*/
+    /*background: transparentize(var(--colors-background-bg-brand-secondary, #7F56D9), 0.24);*/
     background: #7F56D93D;
 }
 
@@ -29,7 +29,7 @@ a {
 }
 
 *::-webkit-scrollbar-thumb {
-    background: var(--colors-background-bg-quaternary, #333741);
+    background: var(--colors-background-bg-quarterary, #333741);
     border: solid 0.4rem var(--colors-background-bg-primary, #0C111D);
     border-radius: 50em;
 }

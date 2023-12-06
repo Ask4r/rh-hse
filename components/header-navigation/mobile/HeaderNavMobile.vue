@@ -41,16 +41,18 @@ function foldMenu() {
   <nav v-on-click-outside="foldMenu"
        :class="['navigation', {
                 'navigation_active': isMenuActive,
-                'navigation_stuck': topScroll > 10}]">
+                'navigation_stuck': topScroll > 16}]">
 
     <container class="navigation__container">
       <Logotype/>
       <BurgerMenuButton v-model:is-active="isMenuActive"/>
     </container>
 
-    <collapse as="nav" :when="isMenuActive" class="navigation__dropdown">
-      <div :class="['dropdown__content', {
-                    'dropdown__content_active': isFiguresActive}]">
+    <collapse as="nav"
+              :when="isMenuActive"
+              class="navigation__dropdown dropdown">
+      <div :class="['dropdown__content', { 'dropdown__content_active': isFiguresActive}]">
+
         <NavLinkMobile text="Главная"
                        to="/"
                        class="dropdown__item"
@@ -77,6 +79,8 @@ function foldMenu() {
         </div>
       </div>
 
+      <div class="dropdown__fade"></div>
+
     </collapse>
 
   </nav>
@@ -87,13 +91,12 @@ function foldMenu() {
 .navigation {
   width: 100%;
   background: transparent;
-  transition: all 300ms ease-out;
 
   &_active, &_stuck {
     background: var(--colors-background-bg-primary, #0C111D);
     @include shadow-lg;
 
-    & .navigation__dropdown {
+    & .dropdown {
       background: var(--colors-background-bg-primary, #0C111D);
     }
   }
@@ -111,15 +114,17 @@ function foldMenu() {
 }
 
 .dropdown {
+  position: relative;
+
   &__content {
     width: 100%;
     max-height: 400px;
     padding-top: var(--spacing-3xl, 2.4rem);
-    background: #0C111D00;
+    background: transparent;
 
     overflow-y: auto;
     overscroll-behavior: contain;
-    transition: all 350ms ease-out;
+    transition: all 300ms ease-out;
 
     &_active {
       height: 100%;
@@ -137,6 +142,18 @@ function foldMenu() {
     flex-direction: column;
     align-items: stretch;
     border-top: 1px solid var(--colors-border-border-secondary, #1F242F);
+  }
+
+  &__fade {
+    width: 100%;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(
+            to bottom,
+            transparent,
+            var(--colors-background-bg-primary, #0C111D));
   }
 }
 

@@ -1,32 +1,39 @@
 <script setup lang="ts">
 
+const isLoading = ref(true);
+
+
 onMounted(() => {
   window.scrollTo({top: 0});
+
+  isLoading.value = false;
 });
 
 </script>
 
 <template>
-  <article class="page">
+
+  <LoadingScreen v-if="isLoading"/>
+
+  <article v-else class="page">
 
     <HeaderNavigation class="page__navbar"/>
 
     <main class="page__main">
-
       <suspense>
         <template #default>
-          <slot></slot>
+          <slot/>
         </template>
         <template #fallback>
-          <p>LOADING...</p>
+          <LoadingScreen/>
         </template>
       </suspense>
-
     </main>
 
     <FooterSection class="page__footer"/>
 
   </article>
+
 </template>
 
 <style scoped lang="scss">
@@ -44,10 +51,12 @@ onMounted(() => {
   scroll-behavior: smooth;
 
   &__navbar {
+    width: 100dvw;
     grid-area: header;
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 10000;
   }
 
   &__main {

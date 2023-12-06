@@ -1,5 +1,7 @@
 <script setup lang="ts">
 
+const video = ref();
+
 </script>
 
 <template>
@@ -7,17 +9,25 @@
 
     <h1 class="text__title">Исторические личности России 1990х годов</h1>
 
-    <p class="text__supporting">Экскурс в переломный период становления России и самых ярких деятелей того времени.</p>
+    <p class="text__supporting">
+      Экскурс в переломный период становления России и самых ярких деятелей того времени.
+    </p>
 
-    <button-component :size="isMobile ? 'xl' : '2xl'" style-mode="primary_color" class="text__button">
+    <button-component :size="isMobile ? 'xl' : '2xl'"
+                      style-mode="primary_color"
+                      class="text__button"
+                      @click="video.show()">
       <template #leading="{ isHovered }">
-        <PlayCircleIcon
-          :color="isHovered ? 'var(--component-colors-components-buttons-primary-button-primary-fg-hover, #FFFFFF)' : 'var(--component-colors-components-buttons-primary-button-primary-fg, #FFFFFF)'"
-        />
+        <PlayCircleIcon :color="isHovered
+                                ? 'var(--component-colors-components-buttons-primary-button-primary-fg-hover, #FFFFFF)'
+                                : 'var(--component-colors-components-buttons-primary-button-primary-fg, #FFFFFF)'"/>
       </template>
 
       Обзор
+
     </button-component>
+
+    <HeaderVideoPreview ref="video"/>
 
   </div>
 </template>

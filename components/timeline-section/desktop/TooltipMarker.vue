@@ -1,34 +1,39 @@
 <script setup lang="ts">
 
-defineProps<{
-  heading: string;
-  text: string;
-}>();
-
-// const point = ref();
-// const container = ref();
-// const isHovered = useElementHover(point)
-// const hh =  useElementHover(container);
-
 const isHovered = ref(false);
-
 
 </script>
 
 <template>
-  <div ref="container" class="container" @pointerleave="isHovered = false">
+  <div class="container" @pointerleave="isHovered = false">
 
-    <div :class="['tooltip', {'tooltip_active': isHovered}]">
-      <p class="tooltip__heading">{{ heading }}</p>
-      <p class="tooltip__text">{{ text }}</p>
-    </div>
+    <transition name="tooltip">
+      <div v-show="isHovered" class="tooltip">
+        <p class="tooltip__heading">
+          <slot name="heading"/>
+        </p>
+        <p class="tooltip__text">
+          <slot name="text"/>
+        </p>
+      </div>
+    </transition>
 
-    <MarkerPoint ref="point" class="point" @pointerenter="isHovered = true"/>
+    <MarkerPoint class="point" @pointerenter="isHovered = true"/>
 
   </div>
 </template>
 
 <style scoped lang="scss">
+
+.tooltip-enter-active,
+.tooltip-leave-active {
+  transition: all 300ms ease-out;
+}
+
+.tooltip-enter-from,
+.tooltip-leave-to {
+  opacity: 0;
+}
 
 .container {
   position: relative;
@@ -49,10 +54,6 @@ const isHovered = ref(false);
 
   background: var(--colors-background-bg-primary-alt, #161B26);
   border-radius: var(--radius-md, 0.8rem);
-  opacity: 0;
-  user-select: none;
-
-  transition: all 300ms ease-out;
 
   &::after {
     content: '';
@@ -64,11 +65,6 @@ const isHovered = ref(false);
     border-radius: 0.1rem;
     background: var(--colors-background-bg-primary-alt, #161B26);
     rotate: 45deg;
-  }
-
-  &_active {
-    opacity: 1;
-    user-select: auto;
   }
 
   &__heading {

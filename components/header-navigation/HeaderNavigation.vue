@@ -18,7 +18,6 @@ import { HeaderNavDesktop, HeaderNavMobile } from '#components';
   width: 100%;
   display: flex;
   justify-content: center;
-  z-index: 10000;
 }
 
 </style>
