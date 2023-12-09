@@ -6,14 +6,13 @@
   <div class="content">
 
     <div class="author">
-      <img
-        src="/avatars/lolitron.png"
-        alt="Влад Овчаров"
-        class="author__image"
-      >
+      <img src="/avatars/lolitron.png"
+           alt="Влад Овчаров"
+           class="author__image">
       <p class="author__title">Влад Овчаров</p>
       <p class="author__subtext">REDAKTOR_BIBLII</p>
     </div>
+
   </div>
 </template>
 
