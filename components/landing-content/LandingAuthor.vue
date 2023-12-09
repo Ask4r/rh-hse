@@ -14,13 +14,6 @@
       <p class="author__title">Влад Овчаров</p>
       <p class="author__subtext">REDAKTOR_BIBLII</p>
     </div>
-
-    <div class="categories">
-      <badge color="brand">Маэстро</badge>
-      <badge color="pink">Политик</badge>
-      <badge color="indigo">Историк</badge>
-    </div>
-
   </div>
 </template>
 
