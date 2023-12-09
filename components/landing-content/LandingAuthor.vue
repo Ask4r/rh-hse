@@ -10,7 +10,7 @@
            alt="Влад Овчаров"
            class="author__image">
       <p class="author__title">Влад Овчаров</p>
-      <p class="author__subtext">Pussy Destroyer</p>
+      <p class="author__subtext">REDAKTOR_BIBLII</p>
     </div>
 
   </div>
