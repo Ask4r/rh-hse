@@ -11,48 +11,36 @@ const emits = defineEmits<{
 
     <p class="menu__title">Личности</p>
 
-
     <ul class="menu__list">
-      <nuxt-link to="/ponasenkov" @click="emits('navigated')">
+      <nuxt-link to="/gorbachev" @click="emits('navigated')">
         <li class="menu__item">
-          <AvatarLabelGroup image="/images/ponasenkov-avatar.png"
-                            title="Евгений Понасенков"
-                            supporting-text="Маэстро"/>
+          <AvatarLabelGroup image="/images/gorbachev-avatar.png"
+                            title="Михаил Горбачев"
+                            supporting-text="Реформатор"/>
         </li>
       </nuxt-link>
-      <nuxt-link to="/ponasenkov" @click="emits('navigated')">
+
+      <nuxt-link to="/elzin" @click="emits('navigated')">
         <li class="menu__item">
-          <AvatarLabelGroup image="/images/ponasenkov-avatar.png"
-                            title="Евгений Понасенков"
-                            supporting-text="Маэстро"/>
+          <AvatarLabelGroup image="/images/elzin-avatar.png"
+                            title="Борис Ельцин"
+                            supporting-text="Первый президент РФ"/>
         </li>
       </nuxt-link>
-      <nuxt-link to="/ponasenkov" @click="emits('navigated')">
+
+      <nuxt-link to="/chubays" @click="emits('navigated')">
         <li class="menu__item">
-          <AvatarLabelGroup image="/images/ponasenkov-avatar.png"
-                            title="Евгений Понасенков"
-                            supporting-text="Маэстро"/>
+          <AvatarLabelGroup image="/images/chubays-avatar.png"
+                            title="Анатолий Чубайс"
+                            supporting-text="Экономист, карьерист"/>
         </li>
       </nuxt-link>
-      <nuxt-link to="/ponasenkov" @click="emits('navigated')">
+
+      <nuxt-link to="/khodorkovskiy" @click="emits('navigated')">
         <li class="menu__item">
-          <AvatarLabelGroup image="/images/ponasenkov-avatar.png"
-                            title="Евгений Понасенков"
-                            supporting-text="Маэстро"/>
-        </li>
-      </nuxt-link>
-      <nuxt-link to="/ponasenkov" @click="emits('navigated')">
-        <li class="menu__item">
-          <AvatarLabelGroup image="/images/ponasenkov-avatar.png"
-                            title="Евгений Понасенков"
-                            supporting-text="Маэстро"/>
-        </li>
-      </nuxt-link>
-      <nuxt-link to="/" @click="emits('navigated')">
-        <li class="menu__item">
-          <AvatarLabelGroup image="/images/berezovsky-office.png"
-                            title="Борис Березовский"
-                            supporting-text="Предприниматель"/>
+          <AvatarLabelGroup image="/images/khodorkovskiy-avatar.png"
+                            title="Михаил Ходорковский"
+                            supporting-text="Бизнесмен"/>
         </li>
       </nuxt-link>
     </ul>

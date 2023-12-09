@@ -16,9 +16,14 @@
     </div>
 
     <div class="categories">
-      <badge color="brand">Маэстро</badge>
-      <badge color="pink">Политик</badge>
-      <badge color="indigo">Историк</badge>
+      <badge color="brand">brand</badge>
+      <badge color="pink">pink</badge>
+      <badge color="indigo">indigo</badge>
+      <badge color="success">success</badge>
+      <badge color="blue">blue</badge>
+      <badge color="orange">orange</badge>
+      <badge color="gray-blue">gray-blue</badge>
+      <badge color="gray">gray</badge>
     </div>
 
   </div>
@@ -67,6 +72,7 @@
 
 .categories {
   display: flex;
+  flex-wrap: wrap;
   gap: var(--spacing-md, 0.8rem);
 }
 

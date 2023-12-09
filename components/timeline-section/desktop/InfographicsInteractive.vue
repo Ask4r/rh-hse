@@ -5,8 +5,6 @@
 <template>
   <div class="map">
 
-    <VectorMap class="map__vector"/>
-
     <tooltip-marker class="map__marker map__marker_1">
       <template #heading>12 июня 1991 года</template>
       <template #text>Борис Ельцин избран Президентом РСФСР.</template>
@@ -31,19 +29,18 @@
     </tooltip-marker>
 
     <tooltip-marker class="map__marker map__marker_5">
-      <template #heading>1994-1996 годы</template>
+      <template #heading>1992-1993 год</template>
       <template #text>
-        Первая чеченская война. Боевые действия на территории Чечни и в приграничных регионах Северного
-        Кавказа с целью восстановления российской власти на территории Чечни.
+        Отставка первого правительства России и конституционный кризис – противостояние между
+        правительством и руководством Верховного Совета и большей частью народных депутатов.
       </template>
     </tooltip-marker>
 
     <tooltip-marker class="map__marker map__marker_6">
-      <template #heading>1992-1993 год</template>
+      <template #heading>1994-1996 годы</template>
       <template #text>
-        Отставка первого правительства России и конституционный кризис – противостояние между
-        правительством и руководством Верховного Совета и большей частью народных депутатов. Несколько вооруженных
-        столкновений с многочисленными жертвами.
+        Первая чеченская война. Боевые действия на территории Чечни и в приграничных регионах Северного
+        Кавказа с целью восстановления российской власти на территории Чечни.
       </template>
     </tooltip-marker>
 
@@ -80,62 +77,59 @@
   aspect-ratio: 1024 / 560;
   display: grid;
   place-items: center;
+  background: url("/assets/images/pattern-map.png") center / contain no-repeat;
 
-  &__vector {
-    width: 100%;
-    height: 100%;
-  }
 
   &__marker {
     position: absolute;
     translate: -50% -50%;
 
     &_1 {
-      top: 64%;
-      left: 8%;
+      top: 58%;
+      left: 7%;
     }
 
     &_2 {
-      top: 66%;
-      left: 21%;
-      z-index: 100;
+      top: 64%;
+      left: 16%;
     }
 
     &_3 {
-      top: 50%;
-      left: 31%;
+      top: 65%;
+      left: 27%;
+      z-index: 30;
     }
 
     &_4 {
-      top: 71%;
-      left: 41%;
-      z-index: 100;
+      top: 56%;
+      left: 38%;
+      z-index: 20;
     }
 
     &_5 {
-      top: 40%;
-      left: 44%;
+      top: 46%;
+      left: 46%;
+      z-index: 10;
     }
 
     &_6 {
-      top: 66%;
-      left: 55%;
-      z-index: 100;
+      top: 39%;
+      left: 56%;
     }
 
     &_7 {
       top: 38%;
-      left: 58%;
+      left: 67%;
     }
 
     &_8 {
-      top: 55%;
-      left: 69%;
+      top: 44%;
+      left: 77%;
     }
 
     &_9 {
-      top: 49%;
-      left: 82%;
+      top: 52%;
+      left: 86%;
     }
   }
 }

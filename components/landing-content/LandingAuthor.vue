@@ -6,19 +6,11 @@
   <div class="content">
 
     <div class="author">
-      <img
-        src="/avatars/lolitron.png"
-        alt="Влад Овчаров"
-        class="author__image"
-      >
+      <img src="/avatars/lolitron.png"
+           alt="Влад Овчаров"
+           class="author__image">
       <p class="author__title">Влад Овчаров</p>
       <p class="author__subtext">Pussy Destroyer</p>
-    </div>
-
-    <div class="categories">
-      <badge color="brand">Маэстро</badge>
-      <badge color="pink">Политик</badge>
-      <badge color="indigo">Историк</badge>
     </div>
 
   </div>

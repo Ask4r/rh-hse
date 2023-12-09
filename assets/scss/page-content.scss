@@ -19,7 +19,6 @@
 
 .plain-text {
   margin: 1lh 0;
-  white-space: pre-line;
   color: var(--colors-text-text-tertiary-600, #94969C);
   @include text-md(Regular);
 }
