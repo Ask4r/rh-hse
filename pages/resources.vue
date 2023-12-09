@@ -21,19 +21,6 @@
     <div class="main-content">
       <container class="container">
         <article class="content">
-
-          <p class="plain-text">
-            Suspendisse eget dictum mi, sed ultricies ex. Duis malesuada purus ante, id ultrices dui ullamcorper sed.
-            Aenean a eros ut nibh blandit iaculis. Integer venenatis sed lectus id elementum. Integer in dapibus quam.
-            Aenean pulvinar lorem dui, vitae consequat est vestibulum id. Integer in ex ac lectus venenatis rhoncus non
-            et elit.
-          </p>
-          <p class="plain-text">
-            Quisque consequat quis nulla sed rhoncus. Nulla viverra et tellus in congue. Maecenas vitae lorem id lorem
-            tincidunt dignissim eget sed tortor. Morbi ut interdum eros. Orci varius natoque penatibus et magnis dis
-            parturient montes, nascetur ridiculus mus. Maecenas nec est sodales, pretium mi vel, placerat neque.
-          </p>
-
           <h3 class="text-heading">Литература</h3>
 
           <ol class="plain-text text-list">
