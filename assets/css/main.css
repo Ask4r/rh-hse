@@ -15,7 +15,6 @@ img {
 }
 
 a {
-    color: var(--colors-foreground-fg-brand-primary-600, #9E77ED);
     text-decoration: none;
 }
 

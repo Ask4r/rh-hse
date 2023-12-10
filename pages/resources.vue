@@ -21,6 +21,7 @@
         <div class="main-content">
             <container class="container">
                 <article class="content">
+
                     <h3 class="text-heading block-first-child">Литература</h3>
 
                     <ol class="plain-text text-list">
@@ -33,7 +34,7 @@
                             14. — № 1. — С. 3-11.
                         </li>
                         <li>Королева И. В. Либерализация цен / Лесной вестник. — 2001. — № 4. — С. 134-137.</li>
-                        <li>МИХАИЛ ГОРБАЧЕВ: ЛИЧНОСТЬ И ПОЛИТИКА ГЛАВЫ ГОСУДАРСТВА ГЛАЗАМИ СОВРЕМЕННИКОВ //
+                        <li>Михаил Горбачев: личность и политика главы государства глазами современников //
                             <nuxt-link to="https://elar.urfu.ru/bitstream/10995/39741/1/qr_1_2016_07.pdf" class="link">
                                 https://elar.urfu.ru/bitstream/10995/39741/1/qr_1_2016_07.pdf
                             </nuxt-link>
@@ -145,6 +146,15 @@
   margin: 3.2rem 0 1.6rem 0;
   color: var(--colors-text-text-primary-900, #F5F5F6);
   @include display-sm(Semibold);
+}
+
+.link {
+  color: var(--component-colors-components-buttons-primary-button-primary-bg, #7F56D9);
+  word-break: break-word;
+
+  :hover {
+    color: var(--component-colors-components-buttons-primary-button-primary-bg-hover, #6941C6);
+  }
 }
 
 @media only screen and (min-width: 768px) {
