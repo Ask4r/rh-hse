@@ -11,7 +11,7 @@
     </tooltip-marker>
 
     <tooltip-marker class="map__marker map__marker_2">
-      <template #heading>19-21 1991 года</template>
+      <template #heading>19-21 августа <br> 1991 года</template>
       <template #text>
         Августовский путч. Неудавшаяся попытка ГКЧП перехватить власть в стране, подводившая черту под
         историей СССР.

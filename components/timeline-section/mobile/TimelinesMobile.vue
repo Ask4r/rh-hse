@@ -13,7 +13,7 @@
 
     <div class="timeline">
       <MarkerPoint :interaction-disabled="true" class="timeline__point"/>
-      <p class="timeline__heading">19-21 1991 года</p>
+      <p class="timeline__heading">19-21 августа <br> 1991 года</p>
       <p class="timeline__text">
         Августовский путч. Неудавшаяся попытка ГКЧП перехватить власть в стране, подводившая черту под
         историей СССР.
