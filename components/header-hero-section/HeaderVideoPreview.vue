@@ -37,7 +37,7 @@ function hideVideo() {
       <div v-show="throttledActive" class="content">
         <container class="container">
           <video ref="video"
-                 src="/videos/preview-video-rickroll.mp4"
+                 src="/videos/obzor.mp4"
                  controls
                  v-on-click-outside="hideVideo"
                  class="video">
