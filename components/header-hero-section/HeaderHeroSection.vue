@@ -8,7 +8,7 @@
 
       <HeadingAndText class="heading__title"/>
 
-      <img src="/images/pozeluy-genseka.png"
+      <img src="/images/pozeluy-babushki.png"
            alt="Поцелуй генсека"
            class="heading__image">
 
