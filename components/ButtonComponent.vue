@@ -1,15 +1,11 @@
 <script setup lang="ts">
 
-type buttonSize = 'sm' | 'md' | 'lg' | 'xl' | '2xl';
-type styleHierarchy = 'primary_color'
-  | 'secondary_gray'
-  | 'tertiary_gray'
-  | 'link_gray';
-
-
 defineProps<{
-  size: buttonSize;
-  styleMode: styleHierarchy;
+  size: 'sm' | 'md' | 'lg' | 'xl' | '2xl';
+  styleMode: 'primary_color'
+      | 'secondary_gray'
+      | 'tertiary_gray'
+      | 'link_gray';
 }>();
 
 
@@ -19,24 +15,22 @@ const isHovered = useElementHover(button);
 </script>
 
 <template>
-  <button
-    ref="button"
-    :class="['button',
-             { 'button_sm': size === 'sm',
-               'button_md': size === 'md',
-               'button_lg': size === 'lg',
-               'button_xl': size === 'xl',
-               'button_2xl': size === '2xl',
+  <button ref="button"
+          :class="['button', {
+                   'button_sm': size === 'sm',
+                   'button_md': size === 'md',
+                   'button_lg': size === 'lg',
+                   'button_xl': size === 'xl',
+                   'button_2xl': size === '2xl',
 
-               'button_primary-colored': styleMode === 'primary_color',
-               'button_secondary-gray': styleMode === 'secondary_gray',
-               'button_tertiary-gray': styleMode === 'tertiary_gray',
-               'button_link-gray': styleMode === 'link_gray',
-                }]"
-  >
+                   'button_primary-colored': styleMode === 'primary_color',
+                   'button_secondary-gray': styleMode === 'secondary_gray',
+                   'button_tertiary-gray': styleMode === 'tertiary_gray',
+                   'button_link-gray': styleMode === 'link_gray',
+                    }]">
 
     <span v-if="$slots.leading" class="icon">
-      <slot name="leading" :is-hovered="isHovered"></slot>
+      <slot name="leading" :is-hovered="isHovered"/>
     </span>
 
     <span class="button__text">
@@ -44,7 +38,7 @@ const isHovered = useElementHover(button);
     </span>
 
     <span v-if="$slots.trailing" class="icon">
-      <slot name="trailing" :is-hovered="isHovered"></slot>
+      <slot name="trailing" :is-hovered="isHovered"/>
     </span>
 
   </button>

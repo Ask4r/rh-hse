@@ -43,6 +43,39 @@ const emits = defineEmits<{
                             supporting-text="Бизнесмен"/>
         </li>
       </nuxt-link>
+
+      <nuxt-link to="/nemzov" @click="emits('navigated')">
+        <li class="menu__item">
+          <AvatarLabelGroup image="/images/nemzov-avatar.png"
+                            title="Борис Немцов"
+                            supporting-text="Политик"/>
+        </li>
+      </nuxt-link>
+
+      <nuxt-link to="/gadair" @click="emits('navigated')">
+        <li class="menu__item">
+          <AvatarLabelGroup image="/images/gadair-avatar.png"
+                            title="Егор Гайдар"
+                            supporting-text="Политик, экономист"/>
+        </li>
+      </nuxt-link>
+
+      <nuxt-link to="/seleznev" @click="emits('navigated')">
+        <li class="menu__item">
+          <AvatarLabelGroup image="/images/seleznev-avatar.png"
+                            title="Геннадий Селезнев"
+                            supporting-text="Депутат"/>
+        </li>
+      </nuxt-link>
+
+      <nuxt-link to="/zuganov" @click="emits('navigated')">
+        <li class="menu__item">
+          <AvatarLabelGroup image="/images/zuganov-avatar.png"
+                            title="Геннадий Зюганов"
+                            supporting-text="Председатель ЦК КПРФ"/>
+        </li>
+      </nuxt-link>
+
     </ul>
 
   </div>
