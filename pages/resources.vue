@@ -24,7 +24,7 @@
 
                     <h3 class="text-heading block-first-child">Литература</h3>
 
-                    <ol class="plain-text text-list">
+                    <ol class="plain-text text-list block-last-child">
                         <li>Андрей Колесников. «Неизвестный Чубайс. Страницы из биографии»</li>
                         <li>Б. Минаев. Ельцин. — М.: Молодая гвардия, 2010. — (ЖЗЛ).</li>
                         <li>Хлевнюк О. В. День новых цен. Кризис снабжения и российское общество на рубеже 1980–1990-х
@@ -37,31 +37,6 @@
                         <li>Михаил Горбачев: личность и политика главы государства глазами современников //
                             <nuxt-link to="https://elar.urfu.ru/bitstream/10995/39741/1/qr_1_2016_07.pdf" class="link">
                                 https://elar.urfu.ru/bitstream/10995/39741/1/qr_1_2016_07.pdf
-                            </nuxt-link>
-                        </li>
-                    </ol>
-
-                    <h3 class="text-heading">Статьи</h3>
-
-                    <ol class="plain-text text-list block-last-child">
-                        <li>Тасс Биография. //
-                            <nuxt-link to="https://tass.ru/encyclopedia/person/chubays-anatoliy-borisovich" class="link">
-                                https://tass.ru/encyclopedia/person/chubays-anatoliy-borisovich
-                            </nuxt-link>
-                        </li>
-                        <li>Mikhail Gorbachev | Biography, Facts, Cold War, & Significance //
-                            <nuxt-link to="https://www.britannica.com/biography/Mikhail-Gorbachev" class="link">
-                                https://www.britannica.com/biography/Mikhail-Gorbachev
-                            </nuxt-link>
-                        </li>
-                        <li>Зюганов Геннадий Андреевич //
-                            <nuxt-link to="https://whoiswho.dp.ru/cart/person/72964" class="link">
-                                https://whoiswho.dp.ru/cart/person/72964
-                            </nuxt-link>
-                        </li>
-                        <li>Геннадий Николаевич Селезнёв //
-                            <nuxt-link to="https://biographe.ru/politiki/genadiy-seleznev/" class="link">
-                                https://biographe.ru/politiki/genadiy-seleznev/
                             </nuxt-link>
                         </li>
                     </ol>
