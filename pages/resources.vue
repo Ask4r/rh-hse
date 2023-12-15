@@ -41,27 +41,6 @@
                         </li>
                     </ol>
 
-                    <h3 class="text-heading">Видео</h3>
-
-                    <ol class="plain-text text-list">
-                        <li>Лихие девяностые. Время свободы. //
-                            <nuxt-link to="https://youtu.be/MmUZSnr0PhY?si=9mczgMGx0lisLMaS" class="link">
-                                https://youtu.be/MmUZSnr0PhY?si=9mczgMGx0lisLMaS
-                            </nuxt-link>
-                        </li>
-                        <li>Перестройка. Что мы сделали не так? //
-                            <nuxt-link to="https://youtu.be/IiBaVZtCds0?si=CUevsWgZ7h88-GGR" class="link">
-                                https://youtu.be/IiBaVZtCds0?si=CUevsWgZ7h88-GGR
-                            </nuxt-link>
-
-                        </li>
-                        <li>Горбачёв //
-                            <nuxt-link to="https://www.youtube.com/live/r3XCHT0loPY?si=ljjQAb25fsqh3ITy" class="link">
-                                https://www.youtube.com/live/r3XCHT0loPY?si=ljjQAb25fsqh3ITy
-                            </nuxt-link>
-                        </li>
-                    </ol>
-
                     <h3 class="text-heading">Статьи</h3>
 
                     <ol class="plain-text text-list block-last-child">
@@ -78,11 +57,6 @@
                         <li>Зюганов Геннадий Андреевич //
                             <nuxt-link to="https://whoiswho.dp.ru/cart/person/72964" class="link">
                                 https://whoiswho.dp.ru/cart/person/72964
-                            </nuxt-link>
-                        </li>
-                        <li>Богатейший из "рабов" в России? //
-                            <nuxt-link to="https://www.inopressa.ru/article/29Aug2012/inopressa/putin.html" class="link">
-                                https://www.inopressa.ru/article/29Aug2012/inopressa/putin.html
                             </nuxt-link>
                         </li>
                         <li>Геннадий Николаевич Селезнёв //

@@ -77,11 +77,33 @@
     </ol>
 
     <p class="plain-text">
+      В опросе участвовало 28 человек преимущественно молодого возраста.
+    </p>
+
+    <div class="image-and-text">
+      <img src="/images/gender-stat.png"
+        alt="Статистика пола опрошенных." class="image-and-text__image">
+      <p class="image-and-text__text">Статистика пола опрошенных.</p>
+    </div>
+
+    <div class="image-and-text">
+      <img src="/images/age-stat.png"
+        alt="Статистика возраста опрошенных." class="image-and-text__image">
+      <p class="image-and-text__text">Статистика возраста опрошенных.</p>
+    </div>
+
+    <p class="plain-text">
       Большинство респондентов на первое по важности место поставили Бориса Ельцина, за ним идут Гайдар, Чубайс и
       Горбачев. Наименее популярными оказались Зюганов и Немцов. Интересно, что общее настроение ответов - негативное, и
       старшее (30-50) и младшее (16-22) поколения считают деятелей виновными в кризисе и развале страны. Однако среди категории
       16-22 Гайдар и Немцов имеют скорее нейтрально-положительную репутацию.
     </p>
+
+    <div class="image-and-text">
+      <img src="/images/importance-stat.png"
+        alt="Статистика возраста опрошенных." class="image-and-text__image">
+      <p class="image-and-text__text">Статистика популярности деятелей.</p>
+    </div>
 
     <div class="image-and-text">
       <img src="/images/nemzov-walking.png"
