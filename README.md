@@ -2,6 +2,9 @@
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+## Page
+current page release is available [here](https://rh-hse.onrender.com)
+
 ## Setup
 
 Make sure to install the dependencies:
